@@ -1,0 +1,32 @@
+SRC
+  └──APP
+  |    └──  Home                        // Página inicial
+  |    |      |
+  |    |      └── 
+  |    |	  
+  |    └──  Perfumes                    //
+  |    |      |
+  |    |      └──
+  |    |	      
+  |    └──  Descripcion de perfumes     // 
+  |    |      |
+  |    |      └──
+  |    |
+  |    └──  Contacto			//
+  |           |
+  |           └── 
+  |
+  |
+  |
+  |
+  |
+  |
+  └── app-config.server.ts
+      app.config.ts
+      app.routes.ts
+      
+      //servicio para gestionar la lista de perfumes y sus detalles
+      perfume.service.spec.ts 
+      perfume.service.ts
+      //servicio puede manejar las llamadas a un backend o una lista estática de perfumes.
+
