@@ -1,0 +1,10 @@
+<div class="perfume-list">
+    <div *ngFor="let perfume of perfumes" class="perfume-card">
+      <img [src]="perfume.image" alt="{{ perfume.name }}">
+      <h3>{{ perfume.name }}</h3>
+      <p>{{ perfume.description }}</p>
+      <p><strong>Precio:</strong> {{ perfume.price | currency }}</p>
+      <button (click)="viewDetails(perfume.id)">Ver Detalles</button>
+    </div>
+  </div>
+  
